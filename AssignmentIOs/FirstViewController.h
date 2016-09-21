@@ -7,8 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<NSURLConnectionDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+{
+   NSMutableData *webData;
+   NSURLConnection *connection;
+    
+}
+
+@property(nonatomic,strong) AppDelegate *appDelegate;
+@property(nonatomic,strong) IBOutlet UICollectionView *productCollection;
+
+@property(nonatomic,strong) NSMutableArray *arrProductName;
+@property(nonatomic,strong) NSMutableArray *arrProductPrice;
+@property(nonatomic,strong) NSMutableArray *arrVenderName;
+@property(nonatomic,strong) NSMutableArray *arrVenderAdress;
+@property(nonatomic,strong) NSMutableArray *arrProductImg;
 
 
 @end

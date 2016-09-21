@@ -16,6 +16,12 @@
 		05F76EF41D918EC1001DBB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F76EF21D918EC1001DBB7D /* LaunchScreen.storyboard */; };
 		05F76EFF1D918EC1001DBB7D /* AssignmentIOsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76EFE1D918EC1001DBB7D /* AssignmentIOsTests.m */; };
 		05F76F0A1D918EC1001DBB7D /* AssignmentIOsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76F091D918EC1001DBB7D /* AssignmentIOsUITests.m */; };
+		05F76F181D9193AE001DBB7D /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 05F76F171D9193AE001DBB7D /* Images */; };
+		05F76F1B1D919E9C001DBB7D /* ProductDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76F1A1D919E9C001DBB7D /* ProductDetail.m */; };
+		05F76F1F1D91AA06001DBB7D /* CustomCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76F1E1D91AA06001DBB7D /* CustomCollectionCell.m */; };
+		05F76F221D91CAD6001DBB7D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76F211D91CAD6001DBB7D /* DBManager.m */; };
+		05F76F241D91CB4C001DBB7D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F76F231D91CB4C001DBB7D /* libsqlite3.tbd */; };
+		05F76F281D91D966001DBB7D /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F76F271D91D966001DBB7D /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,16 @@
 		05F76F051D918EC1001DBB7D /* AssignmentIOsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentIOsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F76F091D918EC1001DBB7D /* AssignmentIOsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignmentIOsUITests.m; sourceTree = "<group>"; };
 		05F76F0B1D918EC1001DBB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F76F171D9193AE001DBB7D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = AssignmentIOs/Images; sourceTree = "<group>"; };
+		05F76F191D919E9C001DBB7D /* ProductDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDetail.h; path = AssignmentIOs/ProductDetail.h; sourceTree = "<group>"; };
+		05F76F1A1D919E9C001DBB7D /* ProductDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDetail.m; path = AssignmentIOs/ProductDetail.m; sourceTree = "<group>"; };
+		05F76F1D1D91AA06001DBB7D /* CustomCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionCell.h; path = AssignmentIOs/CustomCollectionCell.h; sourceTree = "<group>"; };
+		05F76F1E1D91AA06001DBB7D /* CustomCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionCell.m; path = AssignmentIOs/CustomCollectionCell.m; sourceTree = "<group>"; };
+		05F76F201D91CAD6001DBB7D /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = AssignmentIOs/DBManager.h; sourceTree = "<group>"; };
+		05F76F211D91CAD6001DBB7D /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = AssignmentIOs/DBManager.m; sourceTree = "<group>"; };
+		05F76F231D91CB4C001DBB7D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		05F76F261D91D966001DBB7D /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = AssignmentIOs/CustomTableViewCell.h; sourceTree = "<group>"; };
+		05F76F271D91D966001DBB7D /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = AssignmentIOs/CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F76F241D91CB4C001DBB7D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +101,9 @@
 		05F76ED51D918EC1001DBB7D = {
 			isa = PBXGroup;
 			children = (
+				05F76F251D91D91B001DBB7D /* CustomCells */,
+				05F76F1C1D91A555001DBB7D /* Model */,
+				05F76F171D9193AE001DBB7D /* Images */,
 				05F76EE01D918EC1001DBB7D /* AssignmentIOs */,
 				05F76EFD1D918EC1001DBB7D /* AssignmentIOsTests */,
 				05F76F081D918EC1001DBB7D /* AssignmentIOsUITests */,
@@ -122,6 +142,7 @@
 		05F76EE11D918EC1001DBB7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05F76F231D91CB4C001DBB7D /* libsqlite3.tbd */,
 				05F76EE21D918EC1001DBB7D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +164,28 @@
 				05F76F0B1D918EC1001DBB7D /* Info.plist */,
 			);
 			path = AssignmentIOsUITests;
+			sourceTree = "<group>";
+		};
+		05F76F1C1D91A555001DBB7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05F76F201D91CAD6001DBB7D /* DBManager.h */,
+				05F76F211D91CAD6001DBB7D /* DBManager.m */,
+				05F76F191D919E9C001DBB7D /* ProductDetail.h */,
+				05F76F1A1D919E9C001DBB7D /* ProductDetail.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05F76F251D91D91B001DBB7D /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				05F76F261D91D966001DBB7D /* CustomTableViewCell.h */,
+				05F76F271D91D966001DBB7D /* CustomTableViewCell.m */,
+				05F76F1D1D91AA06001DBB7D /* CustomCollectionCell.h */,
+				05F76F1E1D91AA06001DBB7D /* CustomCollectionCell.m */,
+			);
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F76F181D9193AE001DBB7D /* Images in Resources */,
 				05F76EF41D918EC1001DBB7D /* LaunchScreen.storyboard in Resources */,
 				05F76EF11D918EC1001DBB7D /* Assets.xcassets in Resources */,
 				05F76EEF1D918EC1001DBB7D /* Main.storyboard in Resources */,
@@ -275,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F76F221D91CAD6001DBB7D /* DBManager.m in Sources */,
 				05F76EEC1D918EC1001DBB7D /* SecondViewController.m in Sources */,
 				05F76EE61D918EC1001DBB7D /* AppDelegate.m in Sources */,
+				05F76F1F1D91AA06001DBB7D /* CustomCollectionCell.m in Sources */,
 				05F76EE91D918EC1001DBB7D /* FirstViewController.m in Sources */,
+				05F76F1B1D919E9C001DBB7D /* ProductDetail.m in Sources */,
+				05F76F281D91D966001DBB7D /* CustomTableViewCell.m in Sources */,
 				05F76EE31D918EC1001DBB7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +552,7 @@
 				05F76F101D918EC1001DBB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F76F111D918EC1001DBB7D /* Build configuration list for PBXNativeTarget "AssignmentIOsTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +561,7 @@
 				05F76F131D918EC1001DBB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F76F141D918EC1001DBB7D /* Build configuration list for PBXNativeTarget "AssignmentIOsUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +570,7 @@
 				05F76F161D918EC1001DBB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

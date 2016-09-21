@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.productArray=[NSMutableArray array];
+    self.cartArray=[NSMutableArray array];
     return YES;
 }
 
